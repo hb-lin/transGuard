@@ -1,0 +1,257 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 5542,
+      "projectId": 286,
+      "tblCode": "table-7042618f9fd7496d8b7862f30811df89",
+      "tblType": "TOPIC",
+      "tblName": "kafka_20191211",
+      "chsName": "安全大数据kafka测试",
+      "createTime": "2019-12-11 16:40:14",
+      "updateTime": "2019-12-11 16:55:26",
+      "params": [
+        {
+          "id": 18754,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "1"
+        },
+        {
+          "id": 18755,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 18756,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 18757,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "kafka_20191211"
+        }
+      ],
+      "catalog": {
+        "id": 11121,
+        "path": "3990#6761#11121",
+        "catalogId": 5542,
+        "catalogCode": null,
+        "createTime": "2019-12-11 16:40:14",
+        "updateTime": "2019-12-11 16:55:26",
+        "catalogPath": {
+          "dsId": 3990,
+          "dbId": 6761,
+          "tableId": 11121
+        }
+      },
+      "existTest": true,
+      "partition": false
+    },
+    {
+      "id": 4383,
+      "projectId": 286,
+      "tblCode": "table-d905975bd7004390928af905903de99a",
+      "tblType": "TOPIC",
+      "tblName": "lbz_2019_11_04",
+      "chsName": "文件夹采集20191104验证agent更新",
+      "createTime": "2019-11-04 21:11:44",
+      "updateTime": "2019-11-04 21:11:44",
+      "params": [
+        {
+          "id": 12890,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "1"
+        },
+        {
+          "id": 12891,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 12892,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 12893,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "lbz_2019_11_04"
+        }
+      ],
+      "catalog": {
+        "id": 9045,
+        "path": "3990#6761#9045",
+        "catalogId": 4383,
+        "catalogCode": null,
+        "createTime": "2019-11-04 21:11:44",
+        "updateTime": "2019-11-04 21:11:44",
+        "catalogPath": {
+          "dsId": 3990,
+          "dbId": 6761,
+          "tableId": 9045
+        }
+      },
+      "existTest": true,
+      "partition": false
+    },
+    {
+      "id": 3523,
+      "projectId": 286,
+      "tblCode": "table-deab4919e62046cab2dbf2f1d1d53dc5",
+      "tblType": "TOPIC",
+      "tblName": "lbz_for_agent",
+      "chsName": "",
+      "params": [
+        {
+          "id": 10180,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "1"
+        },
+        {
+          "id": 10181,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 10182,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 10183,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "286_244_lbz_for_agent"
+        }
+      ],
+      "catalog": {
+        "id": 6762,
+        "path": "3990#6761#6762",
+        "catalogId": 3523,
+        "catalogCode": null,
+        "createTime": null,
+        "updateTime": null,
+        "catalogPath": {
+          "dsId": 3990,
+          "dbId": 6761,
+          "tableId": 6762
+        }
+      },
+      "existTest": true,
+      "partition": false
+    },
+    {
+      "id": 3069,
+      "projectId": 286,
+      "tblCode": "table-2d6a4371dfe4477fa77d152db4db2fbf",
+      "tblType": "TOPIC",
+      "tblName": "lbz_mysql_930",
+      "chsName": "lbz_mysql_930",
+      "params": [
+        {
+          "id": 8802,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "1"
+        },
+        {
+          "id": 8803,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 8804,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 8805,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "286_244_lbz_mysql_930"
+        }
+      ],
+      "catalog": {
+        "id": 6862,
+        "path": "3990#6761#6862",
+        "catalogId": 3069,
+        "catalogCode": null,
+        "createTime": null,
+        "updateTime": null,
+        "catalogPath": {
+          "dsId": 3990,
+          "dbId": 6761,
+          "tableId": 6862
+        }
+      },
+      "existTest": true,
+      "partition": false
+    },
+    {
+      "id": 3047,
+      "projectId": 286,
+      "tblCode": "table-342e89168de544408466ad80ca9eacde",
+      "tblType": "TOPIC",
+      "tblName": "lbz_2019_10_20",
+      "chsName": "",
+      "params": [
+        {
+          "id": 8696,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "1"
+        },
+        {
+          "id": 8697,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 8698,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 8699,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "286_244_lbz_2019_10_20"
+        }
+      ],
+      "catalog": {
+        "id": 6784,
+        "path": "3990#6761#6784",
+        "catalogId": 3047,
+        "catalogCode": null,
+        "createTime": null,
+        "updateTime": null,
+        "catalogPath": {
+          "dsId": 3990,
+          "dbId": 6761,
+          "tableId": 6784
+        }
+      },
+      "existTest": true,
+      "partition": false
+    }
+  ],
+  "pagination": null
+}

@@ -1,0 +1,147 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "column": {
+        "id": 38115,
+        "techLogicTableId": 6635,
+        "colCode": "col-21d2471cc60c43a996e20c9d253839a5",
+        "colName": "location",
+        "chsName": "经纬度",
+        "colType": "OBJECT",
+        "position": 0,
+        "cols": [
+          {
+            "id": 38116,
+            "techLogicTableId": 6635,
+            "colCode": "col-ce95c91a11a342c1861e71a9475acba7",
+            "colName": "lat",
+            "chsName": "经度",
+            "colType": "DECIMAL",
+            "length": "10,3",
+            "position": 0,
+            "parentColCode": "col-21d2471cc60c43a996e20c9d253839a5",
+            "params": [
+              {
+                "id": 109194,
+                "pkeyChs": null,
+                "pKey": "ENCRYPT_LEVEL",
+                "pValue": "5"
+              },
+              {
+                "id": 109195,
+                "pkeyChs": null,
+                "pKey": "DESENSITIZATION_TYPE",
+                "pValue": "0"
+              },
+              {
+                "id": 109196,
+                "pkeyChs": null,
+                "pKey": "ANC_EXPRESS",
+                "pValue": "10n(3)"
+              }
+            ]
+          },
+          {
+            "id": 38117,
+            "techLogicTableId": 6635,
+            "colCode": "col-2101ea53138448aa90b90691ca4ce85b",
+            "colName": "lng",
+            "chsName": "纬度",
+            "colType": "DECIMAL",
+            "length": "10,3",
+            "position": 0,
+            "parentColCode": "col-21d2471cc60c43a996e20c9d253839a5",
+            "params": [
+              {
+                "id": 109197,
+                "pkeyChs": null,
+                "pKey": "ENCRYPT_LEVEL",
+                "pValue": "5"
+              },
+              {
+                "id": 109198,
+                "pkeyChs": null,
+                "pKey": "DESENSITIZATION_TYPE",
+                "pValue": "0"
+              },
+              {
+                "id": 109199,
+                "pkeyChs": null,
+                "pKey": "ANC_EXPRESS",
+                "pValue": "10n(3)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "column": {
+        "id": 38118,
+        "techLogicTableId": 6635,
+        "colCode": "col-173c853b5ebf4013820ab2beb1116d5c",
+        "colName": "level",
+        "chsName": "精度",
+        "colType": "STRING",
+        "length": "50",
+        "position": 0,
+        "params": [
+          {
+            "id": 109200,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 109201,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "否"
+          },
+          {
+            "id": 109202,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "nac..50"
+          }
+        ]
+      }
+    },
+    {
+      "column": {
+        "id": 38119,
+        "techLogicTableId": 6635,
+        "colCode": "col-b6feb39c2a1f407fa1bd520743d44193",
+        "colName": "address",
+        "chsName": "地址",
+        "colType": "STRING",
+        "length": "50",
+        "position": 0,
+        "params": [
+          {
+            "id": 109203,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 109204,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "否"
+          },
+          {
+            "id": 109205,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "nac..50"
+          }
+        ]
+      }
+    }
+  ],
+  "pagination": null
+}

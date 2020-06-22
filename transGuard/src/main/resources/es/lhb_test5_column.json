@@ -1,0 +1,392 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": {
+    "table": {
+      "id": 5998,
+      "projectId": 286,
+      "tblCode": "table-975c73aa03c6488b841cfabe648c8a1f",
+      "tblType": "ELASTICSEARCH",
+      "tblName": "linhb_test5",
+      "chsName": "linhb_test5",
+      "tblComment": "",
+      "version": 1575712482965,
+      "tblStatus": "RELEASED",
+      "available": true,
+      "fieldlength": null,
+      "createUser": "24",
+      "createTime": "2019-12-07 17:54:43",
+      "params": [
+        {
+          "customize": false,
+          "pKey": "DYNAMIC",
+          "pValue": "true"
+        },
+        {
+          "customize": false,
+          "pKey": "USE_TEMPLATE",
+          "pValue": "false"
+        },
+        {
+          "customize": false,
+          "pKey": "TEMPLATE_PATTERN_COL",
+          "pValue": ""
+        },
+        {
+          "customize": false,
+          "pKey": "TEMPLATE_PATTERN_FORMAT",
+          "pValue": ""
+        },
+        {
+          "customize": false,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        }
+      ],
+      "createUserAlias": null,
+      "projectName": null
+    },
+    "cols": [
+      {
+        "colCode": "col-35e03767294a48eab66e06d158a57294",
+        "colName": "result",
+        "chsName": null,
+        "colType": "OBJECT",
+        "length": null,
+        "colComment": "",
+        "position": 1,
+        "parentColCode": null,
+        "decTblName": null,
+        "params": [],
+        "cols": [
+          {
+            "colCode": "col-42615e73d3ad4c03b368550877810a5d",
+            "colName": "location",
+            "chsName": null,
+            "colType": "OBJECT",
+            "length": null,
+            "colComment": "",
+            "position": 1,
+            "parentColCode": "col-35e03767294a48eab66e06d158a57294",
+            "decTblName": null,
+            "params": [],
+            "cols": [
+              {
+                "colCode": "col-033483fcd9b1413ca15f76781846f888",
+                "colName": "lat",
+                "chsName": null,
+                "colType": "STRING",
+                "length": "250",
+                "colComment": "",
+                "position": 1,
+                "parentColCode": "col-42615e73d3ad4c03b368550877810a5d",
+                "decTblName": null,
+                "params": [
+                  {
+                    "customize": false,
+                    "pKey": "ANALYZER",
+                    "pValue": "standard"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "INDEX",
+                    "pValue": "false"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "DEFAULT_VALUE",
+                    "pValue": ""
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "ENCRYPT_LEVEL",
+                    "pValue": "5"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "DESENSITIZATION_TYPE",
+                    "pValue": "0"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "ANC_EXPRESS",
+                    "pValue": "nac..250"
+                  }
+                ],
+                "cols": []
+              },
+              {
+                "colCode": "col-31155d46ffa94bcbbb68c8f252cc43bc",
+                "colName": "lng",
+                "chsName": null,
+                "colType": "STRING",
+                "length": "250",
+                "colComment": "",
+                "position": 2,
+                "parentColCode": "col-42615e73d3ad4c03b368550877810a5d",
+                "decTblName": null,
+                "params": [
+                  {
+                    "customize": false,
+                    "pKey": "ANALYZER",
+                    "pValue": "standard"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "INDEX",
+                    "pValue": "false"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "DEFAULT_VALUE",
+                    "pValue": ""
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "ENCRYPT_LEVEL",
+                    "pValue": "5"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "DESENSITIZATION_TYPE",
+                    "pValue": "0"
+                  },
+                  {
+                    "customize": false,
+                    "pKey": "ANC_EXPRESS",
+                    "pValue": "nac..250"
+                  }
+                ],
+                "cols": []
+              }
+            ]
+          },
+          {
+            "colCode": "col-7a7d1f6ac4c24573ada9cb885770c328",
+            "colName": "precise",
+            "chsName": null,
+            "colType": "NUMBER",
+            "length": "10",
+            "colComment": "",
+            "position": 2,
+            "parentColCode": "col-35e03767294a48eab66e06d158a57294",
+            "decTblName": null,
+            "params": [
+              {
+                "customize": false,
+                "pKey": "ANALYZER",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "INDEX",
+                "pValue": "false"
+              },
+              {
+                "customize": false,
+                "pKey": "DEFAULT_VALUE",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "ENCRYPT_LEVEL",
+                "pValue": "5"
+              },
+              {
+                "customize": false,
+                "pKey": "DESENSITIZATION_TYPE",
+                "pValue": "0"
+              },
+              {
+                "customize": false,
+                "pKey": "ANC_EXPRESS",
+                "pValue": "n..10"
+              }
+            ],
+            "cols": []
+          },
+          {
+            "colCode": "col-96856969f8ee4217bad1bcc4459747d1",
+            "colName": "confidence",
+            "chsName": null,
+            "colType": "NUMBER",
+            "length": "10",
+            "colComment": "",
+            "position": 3,
+            "parentColCode": "col-35e03767294a48eab66e06d158a57294",
+            "decTblName": null,
+            "params": [
+              {
+                "customize": false,
+                "pKey": "ANALYZER",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "INDEX",
+                "pValue": "false"
+              },
+              {
+                "customize": false,
+                "pKey": "DEFAULT_VALUE",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "ENCRYPT_LEVEL",
+                "pValue": "5"
+              },
+              {
+                "customize": false,
+                "pKey": "DESENSITIZATION_TYPE",
+                "pValue": "0"
+              },
+              {
+                "customize": false,
+                "pKey": "ANC_EXPRESS",
+                "pValue": "n..10"
+              }
+            ],
+            "cols": []
+          },
+          {
+            "colCode": "col-c19d74c41b2442ca9ba501a83871043c",
+            "colName": "comprehension",
+            "chsName": null,
+            "colType": "NUMBER",
+            "length": "10",
+            "colComment": "",
+            "position": 4,
+            "parentColCode": "col-35e03767294a48eab66e06d158a57294",
+            "decTblName": null,
+            "params": [
+              {
+                "customize": false,
+                "pKey": "ANALYZER",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "INDEX",
+                "pValue": "false"
+              },
+              {
+                "customize": false,
+                "pKey": "DEFAULT_VALUE",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "ENCRYPT_LEVEL",
+                "pValue": "5"
+              },
+              {
+                "customize": false,
+                "pKey": "DESENSITIZATION_TYPE",
+                "pValue": "0"
+              },
+              {
+                "customize": false,
+                "pKey": "ANC_EXPRESS",
+                "pValue": "n..10"
+              }
+            ],
+            "cols": []
+          },
+          {
+            "colCode": "col-457bc3be952340f0929a6778e53b866f",
+            "colName": "level",
+            "chsName": null,
+            "colType": "STRING",
+            "length": "250",
+            "colComment": "",
+            "position": 5,
+            "parentColCode": "col-35e03767294a48eab66e06d158a57294",
+            "decTblName": null,
+            "params": [
+              {
+                "customize": false,
+                "pKey": "ANALYZER",
+                "pValue": "standard"
+              },
+              {
+                "customize": false,
+                "pKey": "INDEX",
+                "pValue": "false"
+              },
+              {
+                "customize": false,
+                "pKey": "DEFAULT_VALUE",
+                "pValue": ""
+              },
+              {
+                "customize": false,
+                "pKey": "ENCRYPT_LEVEL",
+                "pValue": "5"
+              },
+              {
+                "customize": false,
+                "pKey": "DESENSITIZATION_TYPE",
+                "pValue": "0"
+              },
+              {
+                "customize": false,
+                "pKey": "ANC_EXPRESS",
+                "pValue": "nac..250"
+              }
+            ],
+            "cols": []
+          }
+        ]
+      },
+      {
+        "colCode": "col-60dff46834f44e61b87d7a04e9cde0e8",
+        "colName": "address",
+        "chsName": null,
+        "colType": "STRING",
+        "length": "250",
+        "colComment": "",
+        "position": 2,
+        "parentColCode": null,
+        "decTblName": null,
+        "params": [
+          {
+            "customize": false,
+            "pKey": "ANALYZER",
+            "pValue": ""
+          },
+          {
+            "customize": false,
+            "pKey": "INDEX",
+            "pValue": "true"
+          },
+          {
+            "customize": false,
+            "pKey": "DEFAULT_VALUE",
+            "pValue": ""
+          },
+          {
+            "customize": false,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "customize": false,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "customize": false,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "nac..250"
+          }
+        ],
+        "cols": []
+      }
+    ],
+    "indexes": [],
+    "partitions": [],
+    "splits": []
+  }
+}

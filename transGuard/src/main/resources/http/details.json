@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "dsId": 151,
+      "dsName": "githubtest",
+      "dbType": "http",
+      "type": 1,
+      "dsMode": null,
+      "config": {
+        "proxyDsId": "d7999553-c538-4de7-82f4-6c1235f24dfa",
+        "sourceMode": "32767",
+        "connectType": "HTTP",
+        "netProxyEnv": "internet",
+        "url": "http://transfer.pocout.cloud:9080/8a42e3ff-0564-43b9-8286-b0bf1a75a08d/api_doc"
+      }
+    },
+    {
+      "dsId": 149,
+      "dsName": "wbsj",
+      "dbType": "http",
+      "type": 1,
+      "config": {
+        "connectType": "HTTP",
+        "url": "transfer.pocout.cloud:443/07b19416-189c-4e71-8d7e-3f137b4048de",
+        "netProxyEnv": "extranet"
+      }
+    },
+    {
+      "dsId": 81,
+      "dsName": "santaiFtp",
+      "dbType": "http",
+      "type": 1,
+      "config": {
+        "connectType": "HTTP",
+        "url": "http://127.0.0.1",
+        "netProxyEnv": "extranet"
+      }
+    },
+    {
+      "dsId": 43,
+      "dsName": "ajtscore",
+      "dbType": "http",
+      "type": 1,
+      "config": {
+        "connectType": "HTTP",
+        "url": "transfer.pocout.cloud:443/b47274fb-35ad-4682-a20b-90f58dfc79ea",
+        "netProxyEnv": "extranet"
+      }
+    },
+    {
+      "dsId": 41,
+      "dsName": "baidu_map_api",
+      "dbType": "http",
+      "type": 1,
+      "config": {
+        "connectType": "HTTP",
+        "url": "transfer.pocout.cloud:9080/b2f60baa-4c66-41d5-963e-335668aeaefc",
+        "netProxyEnv": "extranet"
+      }
+    }
+  ]
+}

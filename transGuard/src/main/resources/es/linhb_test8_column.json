@@ -1,0 +1,42 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 34122,
+      "techLogicTableId": 5519,
+      "colCode": "col-d4fcebf9ad8c46c2be4e1bf3f1a4b64a",
+      "colName": "location",
+      "colType": "OBJECT",
+      "position": 0,
+      "isPartition": false,
+      "cols": [
+        {
+          "id": 34123,
+          "techLogicTableId": 5519,
+          "colCode": "col-ddc1d9093ff7485887e794253cb4948c",
+          "colName": "lat",
+          "colType": "DECIMAL",
+          "length": "10,10",
+          "position": 0,
+          "parentColCode": "col-d4fcebf9ad8c46c2be4e1bf3f1a4b64a",
+          "isPartition": false
+        },
+        {
+          "id": 34124,
+          "techLogicTableId": 5519,
+          "colCode": "col-749935236c0b4ae984d031c3bae5336d",
+          "colName": "lng",
+          "colType": "DECIMAL",
+          "length": "10,10",
+          "position": 0,
+          "parentColCode": "col-d4fcebf9ad8c46c2be4e1bf3f1a4b64a",
+          "isPartition": false
+        }
+      ]
+    }
+
+  ],
+  "pagination": null
+}

@@ -1,0 +1,7 @@
+##此参数war部署下必须与tomcat保持一致，此参数会用于eureka服务注册
+server:
+  port: 9998
+#  context-path: /transGuard
+  servlet:
+    context-path: /transGuard
+

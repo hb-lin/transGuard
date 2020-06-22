@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "dataType": "kafka",
+      "name": "dgKafka",
+      "id": 244,
+      "type": 0,
+      "manageMeta": true,
+      "replaceName": "dgKafka"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 33845,
+      "techLogicTableId": 5418,
+      "colCode": "col-45549415446f4782bae3de02434972e0",
+      "colName": "result",
+      "colType": "OBJECT",
+      "position": 0,
+      "isPartition": false,
+      "cols": [
+        {
+          "id": 33846,
+          "techLogicTableId": 5418,
+          "colCode": "col-ca3d0351263840c7873671359ffe9bcd",
+          "colName": "location",
+          "colType": "OBJECT",
+          "position": 0,
+          "parentColCode": "col-45549415446f4782bae3de02434972e0",
+          "isPartition": false,
+          "cols": [
+            {
+              "id": 33847,
+              "techLogicTableId": 5418,
+              "colCode": "col-0cff64a9aabc4259a1d908cd884f2f38",
+              "colName": "lat",
+              "colType": "STRING",
+              "length": "250",
+              "position": 0,
+              "parentColCode": "col-ca3d0351263840c7873671359ffe9bcd",
+              "isPartition": false
+            },
+            {
+              "id": 33848,
+              "techLogicTableId": 5418,
+              "colCode": "col-b5de72d68897495cbb2aed3a27b0a676",
+              "colName": "lng",
+              "colType": "STRING",
+              "length": "250",
+              "position": 0,
+              "parentColCode": "col-ca3d0351263840c7873671359ffe9bcd",
+              "isPartition": false
+            }
+          ]
+        },
+        {
+          "id": 33849,
+          "techLogicTableId": 5418,
+          "colCode": "col-01cfc3609bd0483d9bdc7784c2711f59",
+          "colName": "precise",
+          "colType": "NUMBER",
+          "length": "10",
+          "position": 0,
+          "parentColCode": "col-45549415446f4782bae3de02434972e0",
+          "isPartition": false
+        },
+        {
+          "id": 33851,
+          "techLogicTableId": 5418,
+          "colCode": "col-68c0cd1a06c64c1f95c6529976d1cb6b",
+          "colName": "confidence",
+          "colType": "NUMBER",
+          "length": "10",
+          "position": 0,
+          "parentColCode": "col-45549415446f4782bae3de02434972e0",
+          "isPartition": false
+        },
+        {
+          "id": 33852,
+          "techLogicTableId": 5418,
+          "colCode": "col-5fa1c7cf2790403488d615f70333940e",
+          "colName": "comprehension",
+          "colType": "NUMBER",
+          "length": "10",
+          "position": 0,
+          "parentColCode": "col-45549415446f4782bae3de02434972e0",
+          "isPartition": false
+        },
+        {
+          "id": 33853,
+          "techLogicTableId": 5418,
+          "colCode": "col-7fba176edc4146f9a09ec522dd5e6723",
+          "colName": "level",
+          "colType": "STRING",
+          "length": "250",
+          "position": 0,
+          "parentColCode": "col-45549415446f4782bae3de02434972e0",
+          "isPartition": false
+        }
+      ]
+    },
+    {
+      "id": 33850,
+      "techLogicTableId": 5418,
+      "colCode": "col-ac6ee0341a2b491bb914c142a0aaa774",
+      "colName": "guid",
+      "colType": "STRING",
+      "length": "250",
+      "position": 0,
+      "isPartition": false
+    }
+  ],
+  "pagination": null
+}

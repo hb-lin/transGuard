@@ -1,0 +1,19 @@
+{
+  "status":200,
+  "message":"成功",
+  "errMessage":null,
+  "result":[
+    {
+      "dsId":457,
+      "dsName":"dcmEs",
+      "dbType":"elasticsearch",
+      "type":1,
+      "config":{
+        "proxyDsId":"92ba6726-0237-4dfd-8b39-9328b3c79356",
+        "connectType":"HTTP",
+        "httpUrls":"47.106.207.157:9200",
+        "netProxyEnv":"extranet"
+      }
+    }
+  ]
+}

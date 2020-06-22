@@ -1,0 +1,146 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 151,
+      "dataType": "http",
+      "type": 1,
+      "name": "githubtest",
+      "manageMeta": false,
+      "description": "fdsfsafsaf",
+      "createTime": "2020-05-29 10:13:42",
+      "createUser": 24,
+      "updateTime": "2020-05-29 15:01:43",
+      "updateUser": 24,
+      "isSync": false,
+      "source": 0,
+      "manageStatus": 30,
+      "parameters": {
+        "test": {
+          "连接方式": "HTTP",
+          "网络代理环境": "internet",
+          "url": "http://www.pm25.in/api_doc"
+        }
+      }
+    },
+    {
+      "id": 149,
+      "dataType": "http",
+      "type": 1,
+      "name": "wbsj",
+      "manageMeta": false,
+      "description": "",
+      "createTime": "2020-05-25 16:17:58",
+      "createUser": 24,
+      "updateTime": "2020-05-25 16:17:58",
+      "updateUser": 24,
+      "isSync": false,
+      "source": 0,
+      "manageStatus": 30,
+      "parameters": {
+        "test": {
+          "连接方式": "HTTPS",
+          "网络代理环境": "internet",
+          "url": "wbsj.ccb.com"
+        }
+      }
+    },
+    {
+      "id": 81,
+      "dataType": "http",
+      "type": 1,
+      "name": "santaiFtp",
+      "manageMeta": false,
+      "description": "dada",
+      "createTime": "2020-03-07 15:24:28",
+      "createUser": 24,
+      "updateTime": "2020-03-07 15:49:14",
+      "updateUser": 24,
+      "isSync": false,
+      "source": 0,
+      "manageStatus": 30,
+      "parameters": {
+        "test": {
+          "连接方式": "HTTP",
+          "网络代理环境": "opennet",
+          "url": "http:127.0.0.1"
+        }
+      }
+    },
+    {
+      "id": 43,
+      "dataType": "http",
+      "type": 1,
+      "name": "ajtscore",
+      "manageMeta": false,
+      "description": "",
+      "createTime": "2020-02-07 16:25:05",
+      "createUser": 24,
+      "updateTime": "2020-02-07 16:25:05",
+      "updateUser": 24,
+      "isSync": false,
+      "source": 0,
+      "manageStatus": 30,
+      "parameters": {
+        "test": {
+          "连接方式": "HTTPS",
+          "网络代理环境": "internet",
+          "url": "apigateway.bigdata.yun.ccb.com"
+        }
+      }
+    },
+    {
+      "id": 41,
+      "dataType": "http",
+      "type": 1,
+      "name": "baidu_map_api",
+      "manageMeta": false,
+      "description": "",
+      "createTime": "2020-01-20 15:29:32",
+      "createUser": 24,
+      "updateTime": "2020-01-20 15:29:32",
+      "updateUser": 24,
+      "isSync": false,
+      "source": 0,
+      "manageStatus": 30,
+      "parameters": {
+        "test": {
+          "连接方式": "HTTP",
+          "网络代理环境": "internet",
+          "url": "api.map.baidu.com"
+        }
+      }
+    },
+    {
+      "id": 29,
+      "dataType": "http",
+      "type": 1,
+      "name": "HTTPS",
+      "manageMeta": false,
+      "description": "",
+      "createTime": "2020-01-15 18:57:47",
+      "createUser": 24,
+      "updateTime": "2020-01-15 18:57:47",
+      "updateUser": 24,
+      "isSync": false,
+      "source": 0,
+      "manageStatus": 30,
+      "parameters": {
+        "online": {
+          "连接方式": "HTTPS",
+          "网络代理环境": "internet",
+          "url": "https://www.baidu.com/"
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pageSize": 10,
+    "totalPage": 1,
+    "totalRecord": 6
+  },
+  "failed": false
+}

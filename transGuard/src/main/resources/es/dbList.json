@@ -1,0 +1,75 @@
+{
+  "status":200,
+  "message":"成功",
+  "errMessage":null,
+  "result":[{
+    "id":2271,
+    "projectId":285,
+    "dbCode":"cac154af38c84f82abe08f97e1c46156",
+    "dbName":"dcm_index8",
+    "dbChsName":"dcm_index8"
+  },{
+    "id":2272,
+    "projectId":286,
+    "dbCode":"cac154af38c84f82abe08f97e1c46156",
+    "dbName":"dcm_index6",
+    "dbChsName":"dcm_index6(测试落地，请勿选)"
+  },{
+    "id":2273,
+    "projectId":287,
+    "dbCode":"cac154af38c84f82abe08f97e1c46156",
+    "dbName":"dcm_index3",
+    "dbChsName":"dcm_index3"
+  },{
+    "id":2274,
+    "projectId":286,
+    "dbCode":"cac154af38c84f82abe08f97e1c46156",
+    "dbName":"dcn_index7",
+    "dbChsName":"索引7"
+  },
+    {
+      "id":1896,
+      "projectId":286,
+      "dbCode":"4b30ffd607384e5b94a360d73f5730e2",
+      "dbName":"lbz_test2",
+      "dbChsName":"文件夹采集20191104验证agent更新",
+      "createTime":"2019-11-04 21:16:01",
+      "updateTime":"2019-11-04 21:16:01",
+      "catalog":{
+        "id":9046,
+        "path":"2216#9046",
+        "catalogId":1896,
+        "catalogCode":null,
+        "createTime":"2019-11-04 21:16:01",
+        "updateTime":"2019-11-04 21:16:01",
+        "catalogPath":{
+          "dsId":2216,
+          "dbId":9046,
+          "tableId":null
+        }
+      }
+    },
+    {
+      "id":1878,
+      "projectId":286,
+      "dbCode":"ec3157083d8942a5a1df4aaedfeb1e93",
+      "dbName":"lbz_test",
+      "createTime":"2019-11-03 19:53:08",
+      "updateTime":"2019-11-03 19:53:08",
+      "catalog":{
+        "id":8989,
+        "path":"2216#8989",
+        "catalogId":1878,
+        "catalogCode":null,
+        "createTime":"2019-11-03 19:53:08",
+        "updateTime":"2019-11-03 19:53:08",
+        "catalogPath":{
+          "dsId":2216,
+          "dbId":8989,
+          "tableId":null
+        }
+      }
+    }
+  ],
+  "pagination":null
+}

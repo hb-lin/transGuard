@@ -1,0 +1,60 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 6635,
+      "tblCode": "table-2ca3f980482241c699a8b1ef31dfb9c4",
+      "tblType": "TOPIC",
+      "tblName": "linhb_test1",
+      "chsName": "linhb测试topic1",
+      "tblComment": "",
+      "version": 1577432236082,
+      "createTime": "2019-12-27 16:35:10",
+      "updateTime": "2019-12-27 16:35:10",
+      "params": [
+        {
+          "id": 22150,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "1"
+        },
+        {
+          "id": 22151,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 22152,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 22153,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "test"
+        }
+      ],
+      "catalog": {
+        "id": 13786,
+        "path": "3990#6761#13786",
+        "catalogId": 6635,
+        "catalogCode": null,
+        "createTime": "2019-12-27 16:35:10",
+        "updateTime": "2019-12-27 16:35:10",
+        "catalogPath": {
+          "dsId": 3990,
+          "dbId": 6761,
+          "tableId": 13786
+        }
+      },
+      "existTest": true,
+      "partition": false
+    }
+  ],
+  "pagination": null
+}

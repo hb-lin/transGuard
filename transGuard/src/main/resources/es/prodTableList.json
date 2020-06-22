@@ -1,0 +1,95 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 5992,
+      "projectId": 286,
+      "tblCode": "table-ea11bc05762c4b86a406e2829ee81b5e",
+      "tblType": "ELASTICSEARCH",
+      "tblName": "linhb_test6",
+      "chsName": "linhb_test6"
+    },
+    {
+      "id": 5993,
+      "projectId": 286,
+      "tblCode": "table-ea11bc05762c4b86a406e2829ee81b5e",
+      "tblType": "ELASTICSEARCH",
+      "tblName": "linhb_test5",
+      "chsName": "linhb_test5"
+    },{
+      "id": 5999,
+      "projectId": 286,
+      "tblCode": "table-ea11bc05762c4b86a406e2829ee81b5e",
+      "tblType": "ELASTICSEARCH",
+      "tblName": "linhb_test3",
+      "chsName": "linhb_test3"
+    },{
+      "id": 6000,
+      "projectId": 286,
+      "tblCode": "table-ea11bc05762c4b86a406e2829ee81b5e",
+      "tblType": "ELASTICSEARCH",
+      "tblName": "linhb_test7",
+      "chsName": "数据表7"
+    },
+    {
+      "id": 4379,
+      "projectId": 286,
+      "tblCode": "table-242c69937e5e44f89908e770af6f60e2",
+      "tblType": "ELASTICSEARCH",
+      "tblName": "lbz_test",
+      "chsName": "",
+      "createTime": "2019-11-03 19:54:36",
+      "updateTime": "2019-11-03 19:54:36",
+      "params": [
+        {
+          "id": 12876,
+          "pkeyChs": null,
+          "pKey": "DYNAMIC",
+          "pValue": "true"
+        },
+        {
+          "id": 12877,
+          "pkeyChs": null,
+          "pKey": "USE_TEMPLATE",
+          "pValue": "false"
+        },
+        {
+          "id": 12878,
+          "pkeyChs": null,
+          "pKey": "TEMPLATE_PATTERN_COL",
+          "pValue": ""
+        },
+        {
+          "id": 12879,
+          "pkeyChs": null,
+          "pKey": "TEMPLATE_PATTERN_FORMAT",
+          "pValue": ""
+        },
+        {
+          "id": 12880,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        }
+      ],
+      "catalog": {
+        "id": 8990,
+        "path": "2216#8989#8990",
+        "catalogId": 4379,
+        "catalogCode": null,
+        "createTime": "2019-11-03 19:54:36",
+        "updateTime": "2019-11-03 19:54:36",
+        "catalogPath": {
+          "dsId": 2216,
+          "dbId": 8989,
+          "tableId": 8990
+        }
+      },
+      "existTest": true,
+      "partition": false
+    }
+  ],
+  "pagination": null
+}

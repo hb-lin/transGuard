@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "dbName": "topicdb_286_244",
+      "dbCnName": "",
+      "dbCode": "topicdb_286_244",
+      "dsId": 244,
+      "dsName": "dgKafka",
+      "dbType": "kafka",
+      "config": {
+        "serverAddress": "localhost:9092"
+      }
+    }
+  ]
+}

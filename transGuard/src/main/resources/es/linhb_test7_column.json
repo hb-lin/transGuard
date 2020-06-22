@@ -1,0 +1,91 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": [
+    {
+      "id": 34122,
+      "techLogicTableId": 5519,
+      "colCode": "col-d4fcebf9ad8c46c2be4e1bf3f1a4b64a",
+      "colName": "location",
+      "colType": "OBJECT",
+      "position": 0,
+      "isPartition": false,
+      "cols": [
+        {
+          "id": 34123,
+          "techLogicTableId": 5519,
+          "colCode": "col-ddc1d9093ff7485887e794253cb4948c",
+          "colName": "lat",
+          "colType": "DECIMAL",
+          "length": "10,10",
+          "position": 0,
+          "parentColCode": "col-d4fcebf9ad8c46c2be4e1bf3f1a4b64a",
+          "isPartition": false
+        },
+        {
+          "id": 34124,
+          "techLogicTableId": 5519,
+          "colCode": "col-749935236c0b4ae984d031c3bae5336d",
+          "colName": "lng",
+          "colType": "DECIMAL",
+          "length": "10,10",
+          "position": 0,
+          "parentColCode": "col-d4fcebf9ad8c46c2be4e1bf3f1a4b64a",
+          "isPartition": false
+        }
+      ]
+    },
+    {
+      "id": 34125,
+      "techLogicTableId": 5519,
+      "colCode": "col-fd84fa741644450db39e2ea97073bf53",
+      "colName": "precise",
+      "colType": "NUMBER",
+      "length": "10",
+      "position": 0,
+      "isPartition": false
+    },
+    {
+      "id": 34126,
+      "techLogicTableId": 5519,
+      "colCode": "col-ad96e5fc5f10488c948a640537f4c44c",
+      "colName": "confidence",
+      "colType": "NUMBER",
+      "length": "10",
+      "position": 0,
+      "isPartition": false
+    },
+    {
+      "id": 34127,
+      "techLogicTableId": 5519,
+      "colCode": "col-ddb7751032774661a607ec8ae0d35132",
+      "colName": "comprehension",
+      "colType": "NUMBER",
+      "length": "10",
+      "position": 0,
+      "isPartition": false
+    },
+    {
+      "id": 34128,
+      "techLogicTableId": 5519,
+      "colCode": "col-36292fe41e97433e82e0e2a9a3b8fea1",
+      "colName": "level",
+      "colType": "STRING",
+      "length": "250",
+      "position": 0,
+      "isPartition": false
+    },
+    {
+      "id": 34129,
+      "techLogicTableId": 5519,
+      "colCode": "col-a7d53132e1324b148f252788ed01c3ce",
+      "colName": "guid",
+      "colType": "STRING",
+      "length": "250",
+      "position": 0,
+      "isPartition": false
+    }
+  ],
+  "pagination": null
+}

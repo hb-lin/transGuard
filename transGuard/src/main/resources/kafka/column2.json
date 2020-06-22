@@ -1,0 +1,155 @@
+{
+  "status": 200,
+  "message": "成功",
+  "errMessage": null,
+  "result": {
+    "heads": [
+      {
+        "name": "colName",
+        "cnName": "字段名称",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      },
+      {
+        "name": "chsName",
+        "cnName": "字段中文名",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      },
+      {
+        "name": "colType",
+        "cnName": "字段类型",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      },
+      {
+        "name": "length",
+        "cnName": "字段长度",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      },
+      {
+        "name": "ENCRYPT_LEVEL",
+        "cnName": "字段密级",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      },
+      {
+        "name": "DESENSITIZATION_TYPE",
+        "cnName": "字段脱敏",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      },
+      {
+        "name": "colComment",
+        "cnName": "字段描述",
+        "colCode": null,
+        "parentColCode": null,
+        "type": null,
+        "position": null,
+        "params": []
+      }
+    ],
+    "columns": [
+      {
+        "colName": "aaa",
+        "chsName": "aaa",
+        "colType": "ARRAY",
+        "length": null,
+        "requestParam": {
+          "colName": "aaa",
+          "dataSourceId": 139,
+          "chsName": "aaa",
+          "dbName": "test-lbz-930_dgKafka",
+          "colCode": "col-ca6507a6fa00428e81a2726b3b831a43",
+          "techLogicTableId": 4553,
+          "tableName": "test_topiclinhb"
+        },
+        "cols": [
+          {
+            "colName": "bbb",
+            "chsName": "bbb",
+            "colType": "OBJECT",
+            "length": null,
+            "requestParam": {
+              "colName": "bbb",
+              "dataSourceId": 139,
+              "chsName": "bbb",
+              "dbName": "test-lbz-930_dgKafka",
+              "colCode": "col-225b403106e54f2d9c1c5385d92f570d",
+              "techLogicTableId": 4553,
+              "tableName": "test_topiclinhb"
+            },
+            "cols": [
+              {
+                "colName": "ccc",
+                "chsName": "ccc",
+                "colType": "STRING",
+                "ANC_EXPRESS": "nac..50",
+                "length": "50",
+                "ENCRYPT_LEVEL": "5",
+                "requestParam": {
+                  "colName": "ccc",
+                  "dataSourceId": 139,
+                  "chsName": "ccc",
+                  "dbName": "test-lbz-930_dgKafka",
+                  "colCode": "col-3b5fc269a1014dce98e2feec2675b37a",
+                  "techLogicTableId": 4553,
+                  "tableName": "test_topiclinhb"
+                },
+                "colComment": "",
+                "DESENSITIZATION_TYPE": "否"
+              }
+            ],
+            "colComment": ""
+          }
+        ],
+        "colComment": ""
+      },
+      {
+        "colName": "ddd",
+        "chsName": "ddd",
+        "colType": "NUMBER",
+        "ANC_EXPRESS": "n..9",
+        "length": "9",
+        "ENCRYPT_LEVEL": "5",
+        "requestParam": {
+          "colName": "ddd",
+          "dataSourceId": 139,
+          "chsName": "ddd",
+          "dbName": "test-lbz-930_dgKafka",
+          "colCode": "col-123b34d25ea247bebba6807b9076b6ce",
+          "techLogicTableId": 4553,
+          "tableName": "test_topiclinhb"
+        },
+        "colComment": "",
+        "DESENSITIZATION_TYPE": "无"
+      }
+    ]
+  },
+  "pagination": {
+    "page": 1,
+    "pageSize": 10,
+    "totalPage": 1,
+    "totalRecord": 2
+  },
+  "failed": false
+}

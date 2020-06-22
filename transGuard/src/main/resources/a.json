@@ -1,0 +1,21 @@
+{
+  "info": {
+    "id": 1,
+    "name": "zhangsan",
+    "alias": "张三",
+    "phone": null,
+    "email": "zhagnsan@tansun.com.cn",
+    "groups": null,
+    "isTenant": false,
+    "tenant": {
+      "id": "123",
+      "name": null
+    },
+    "createTime": null,
+    "updateTime": null
+  },
+  "message": "成功",
+  "success": true,
+  "code": "S0000",
+  "env": "DEV"
+}

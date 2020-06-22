@@ -1,0 +1,60 @@
+
+[
+    {
+      "id": 4553,
+      "projectId": 286,
+      "tblCode": "table-e2fc48b575fb41458449313464a7f720",
+      "tblType": "TOPIC",
+      "tblTypeCn": "表",
+      "tblName": "test_topiclinhb",
+      "chsName": "ceshi数组类型",
+      "createTime": "2020-05-28 15:23:23",
+      "updateTime": "2020-05-28 15:23:23",
+      "params": [
+        {
+          "id": 12364,
+          "pkeyChs": null,
+          "pKey": "PARTITION_SIZE",
+          "pValue": "3"
+        },
+        {
+          "id": 12365,
+          "pkeyChs": null,
+          "pKey": "DATA_FORMAT",
+          "pValue": "json"
+        },
+        {
+          "id": 12366,
+          "pkeyChs": null,
+          "pKey": "LIFECYCLE",
+          "pValue": "7"
+        },
+        {
+          "id": 12367,
+          "pkeyChs": null,
+          "pKey": "REAL_NAME",
+          "pValue": "test_topiclinhb"
+        }
+      ],
+      "projectName": "test-lbz-930",
+      "catalog": {
+        "id": 11612,
+        "path": "10107#11611#11612",
+        "catalogId": 4553,
+        "catalogCode": null,
+        "createTime": "2020-05-28 15:23:23",
+        "updateTime": "2020-05-28 15:23:23",
+        "catalogType": "table",
+        "manageMeta": true,
+        "catalogPath": {
+          "dsId": 10107,
+          "dbId": 11611,
+          "tableId": 11612
+        },
+        "deploy": true
+      },
+      "existTest": true,
+      "deploy": false,
+      "partition": false
+    }
+  ]
